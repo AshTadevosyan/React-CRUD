@@ -1,0 +1,49 @@
+.removeBtn {
+  margin-left: 20px ;
+  background:red;
+  border:none;
+}
+.doneBtn{
+  background: #3EBB66;
+  color:#ECF9F5;
+  outline: none;
+  border:none;
+}
+a .users{
+  margin: 0 auto;
+  width:85%;
+  height:40px;
+}
+a{
+  text-decoration: none;
+}
+ .item{
+  
+  color:black;
+  width:100%;
+  height:30px;
+  border:1px solid #B88D3D; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+a .item:hover{
+  background:#E7D4B6;
+  transition: 0.7s;
+}
+.email{
+  font-size: 12px;
+}
+.inputFname{
+  width:70px;
+  height:20px;
+}
+.inputEmail{
+  width:250px;
+  height:20px;
+}
+.inputLname{
+  width:200px;
+  height:20px;
+}
